@@ -28,6 +28,7 @@ function actualizarReloj() {
 
     spanHora.innerHTML = hora
     spanMinutos.innerHTML = minutos
+    spanTiempo.innerHTML = tiempo
     requestAnimationFrame(actualizarReloj)
 }
 
