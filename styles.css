@@ -119,7 +119,9 @@ body {
 .square6 {
     grid-area: 4/4/7/6;
     background-color: #ffda9e;
-
+    background-image: url("assets/stickfight.gif");
+    background-size: cover;
+    background-position: center;
 }
 
 .square7 {
