@@ -76,6 +76,9 @@ body {
 
 /* Hora actual */
 .square4 {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    color: white;
     display: flex;
     font-family: MontHeavy;
     justify-content: center;
@@ -83,6 +86,9 @@ body {
     flex-direction: column;
     grid-row: 4/6;
     background-color: #fdf9c4;
+    background-image: url("assets/reloj.jpg");
+    background-position: center;
+    background-size: cover;
     font-size: 5vw;
     height: 220px;
 }
