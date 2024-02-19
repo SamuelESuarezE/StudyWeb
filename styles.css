@@ -74,6 +74,14 @@ body {
     align-items: center;
 }
 
+#tecnoHtml {
+    width: 60%;
+}
+
+#python {
+    margin-left: 6%; width: 18%;
+}
+
 /* Hora actual */
 .square4 {
     -webkit-text-stroke-width: 1px;
@@ -182,12 +190,26 @@ body {
 
 @media (max-width: 768px) {
     .square1 p {
-        font-size: 3vw;
+        font-size: 4.5vw;
         
     }
     .square1 h2 {
-        font-size: 4vw;
+        font-size: 6vw;
     }
+    .square5 {
+        background-size: 350px;
+    }
+
+    #tecnoHtml {
+        height: 30px;
+        width: auto;
+    }
+
+    #python {
+        height: 30px;
+        width: auto;
+    }
+    
 }
 
 
